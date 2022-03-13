@@ -123,7 +123,7 @@ function MyAppBar(props) {
                     <ListItemButton key={v.name.toLocaleLowerCase()}
                       sx={{
                         minHeight: 48,
-                        justifyContent: open ? 'initial' : 'center',
+                        justifyContent: state ? 'initial' : 'center',
                         px: 2.5,
                       }}>
                         <ListItemIcon sx={{

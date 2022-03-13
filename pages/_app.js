@@ -1,6 +1,6 @@
 import React from 'react'
 import { CacheProvider } from '@emotion/react'
-import { ThemeProvider, CssBaseline, useMediaQuery, Container } from '@mui/material'
+import { ThemeProvider, CssBaseline, useMediaQuery } from '@mui/material'
 
 /* Style */
 import '../styles/globals.css'

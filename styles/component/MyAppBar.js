@@ -119,7 +119,7 @@ function MyAppBar(props) {
           <List>
           {[{name: "Shortcut", icon: <ShortcutIcon />, href: "/"}, {name: "About", icon: <AboutIcon />, href: "/about"}]
                 .map(
-                  v => <Link href={v.href}>
+                  v => <Link href={v.href} key={v.name.toLocaleLowerCase()}>
                     <ListItemButton key={v.name.toLocaleLowerCase()}
                       sx={{
                         minHeight: 48,

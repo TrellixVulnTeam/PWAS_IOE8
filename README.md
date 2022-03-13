@@ -1,5 +1,7 @@
 # PWAS
-A project that makes the most use of
+<image src="public/pwas.png" width="200px"/>
+
+Shortcut for Progressive Web Application is project that makes the most use of
 PWA for Chrome OS
 
 More specifically, you can install PWAS
